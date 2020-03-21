@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Alata|Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>Book CSS</title>
+    <style>
+      #bookContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      #book {
+        background-color: rgb(245, 245, 237);
+        height: 80vh;
+        width: 50vh;
+        position: relative;
+        -webkit-box-shadow: 4px 10px 15px -5px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 4px 10px 15px -5px rgba(0, 0, 0, 0.75);
+        box-shadow: 4px 10px 15px -5px rgba(0, 0, 0, 0.75);
+      }
+
+      #topLabel {
+        position: absolute;
+        width: 100%;
+        height: 8%;
+        background-color: rgb(48, 48, 168);
+      }
+      #topLabel h3 {
+        text-transform: uppercase;
+        font-family: "Roboto", sans-serif;
+        text-align: center;
+        color: white;
+      }
+      #titleOne {
+        text-transform: uppercase;
+        color: rgb(221, 66, 66);
+        height: 16%;
+        width: 100%;
+        position: absolute;
+        padding: 8% 0 0 8%;
+        box-sizing: border-box;
+        display: inline;
+        top: 8%;
+        font-size: 4em;
+        font-weight: 800;
+        font-family: "Roboto", sans-serif;
+      }
+
+      #titleTwo {
+        text-transform: uppercase;
+        color: rgb(221, 66, 66);
+        height: 16%;
+        width: 100%;
+        position: absolute;
+        padding: 8% 0 0 8%;
+        box-sizing: border-box;
+        display: inline;
+        top: 18%;
+        font-size: 5em;
+        font-weight: 900;
+        font-family: "Roboto", sans-serif;
+      }
+
+      #titleThree {
+        text-transform: uppercase;
+        color: rgb(221, 66, 66);
+        height: 16%;
+        width: 100%;
+        position: absolute;
+        padding: 8% 0 0 8%;
+        box-sizing: border-box;
+        display: inline;
+        top: 33%;
+        font-size: 4em;
+        font-weight: 900;
+        font-family: "Roboto", sans-serif;
+      }
+
+      #titleFour {
+        text-transform: uppercase;
+        color: rgb(221, 66, 66);
+        height: 16%;
+        width: 100%;
+        position: absolute;
+        padding: 8% 0 0 8%;
+        box-sizing: border-box;
+        display: inline;
+        top: 48%;
+        font-size: 4em;
+        font-weight: 800;
+        font-family: "Roboto", sans-serif;
+      }
+
+      #titleFive {
+        text-transform: uppercase;
+        color: rgb(221, 66, 66);
+        height: 16%;
+        width: 100%;
+        position: absolute;
+        padding: 8% 0 0 8%;
+        box-sizing: border-box;
+        display: inline;
+        top: 55%;
+        font-size: 12em;
+        font-weight: 800;
+        font-family: "Roboto", sans-serif;
+      }
+
+      #copySold {
+        height: 90px;
+        width: 90px;
+        text-align: center;
+        border-radius: 50%;
+        position: absolute;
+        top: 10%;
+        display: inline-block;
+        left: 65%;
+        padding: 10px;
+        box-sizing: border-box;
+
+        text-transform: uppercase;
+        font-family: "Roboto", sans-serif;
+        color: white;
+        font-weight: 700;
+        background-color: rgb(187, 187, 114);
+      }
+
+      #description {
+        color: black;
+        position: absolute;
+        font-family: "Alata", sans-serif;
+        top: 40%;
+        line-height: 1.1rem;
+        box-sizing: border-box;
+        left: 33%;
+        font-size: 1.1 rem;
+        font-weight: 700;
+        padding-right: 10%;
+        text-align: justify;
+      }
+
+      #author {
+        color: rgb(18, 18, 221);
+        position: absolute;
+        top: 93%;
+        left: 12%;
+        font-size: 1.8rem;
+        font-weight: 700;
+        font-family: "Roboto", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="bookContainer">
+      <div id="book">
+        <div id="topLabel">
+          <h3>The Classic International BestSeller</h3>
+        </div>
+
+        <div id="titleOne">The</div>
+        <div id="copySold">6 Million Sold</div>
+        <div id="titleTwo">Magic</div>
+        <div id="titleThree">of</div>
+        <div id="description">
+          The true secret of success - how to earn more, lead fearlessly and
+          live a happier life
+        </div>
+        <div id="titleFour">thinking</div>
+        <div id="titleFive">big</div>
+
+        <div id="author">David Schwaertz, PhD</div>
+      </div>
+    </div>
+  </body>
+</html>
